@@ -8,5 +8,6 @@
 /* -------------------------------------------------------------------------- */
 
 plugins {
+    id("at.phatbl.clamp") version "1.0.0"
     id("at.phatbl.swiftpm") version "1.0.0"
 }
