@@ -6,12 +6,10 @@ import PackageDescription
 let package = Package(
     name: "badger",
     products: [
-        .executable(
-            name: "badger",
-            targets: ["badger"]),
-        .library(
-            name: "BadgeKit",
-            targets: ["BadgeKit"]),
+        .executable(name: "badger", targets: ["badger"]),
+        .library(name: "BadgeKit", targets: ["BadgeKit"]),
+        .library(name: "BadgeKitStatic", type: .static, targets: ["BadgeKit"]),
+        .library(name: "BadgeKitDynamic", type: .dynamic, targets: ["BadgeKit"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.

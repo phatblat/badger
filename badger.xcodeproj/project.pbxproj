@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		"badger::badgerPackageTests::ProductTarget" /* badgerPackageTests */ = {
+		"badger::BadgeKitDynamic::ProductTarget" /* BadgeKitDynamic */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_44 /* Build configuration list for PBXAggregateTarget "badgerPackageTests" */;
+			buildConfigurationList = OBJ_29 /* Build configuration list for PBXAggregateTarget "BadgeKitDynamic" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_47 /* PBXTargetDependency */,
+				OBJ_32 /* PBXTargetDependency */,
+			);
+			name = BadgeKitDynamic;
+			productName = BadgeKitDynamic;
+		};
+		"badger::BadgeKitStatic::ProductTarget" /* BadgeKitStatic */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_34 /* Build configuration list for PBXAggregateTarget "BadgeKitStatic" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_37 /* PBXTargetDependency */,
+			);
+			name = BadgeKitStatic;
+			productName = BadgeKitStatic;
+		};
+		"badger::badgerPackageTests::ProductTarget" /* badgerPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_54 /* Build configuration list for PBXAggregateTarget "badgerPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_57 /* PBXTargetDependency */,
 			);
 			name = badgerPackageTests;
 			productName = badgerPackageTests;
@@ -22,30 +44,44 @@
 
 /* Begin PBXBuildFile section */
 		OBJ_26 /* badgekit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* badgekit.swift */; };
-		OBJ_33 /* badger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* badger.swift */; };
-		OBJ_35 /* BadgeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "badger::BadgeKit::Product" /* BadgeKit.framework */; };
-		OBJ_42 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_53 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* XCTestManifests.swift */; };
-		OBJ_54 /* badgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* badgerTests.swift */; };
-		OBJ_56 /* BadgeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "badger::BadgeKit::Product" /* BadgeKit.framework */; };
+		OBJ_43 /* badger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* badger.swift */; };
+		OBJ_45 /* BadgeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "badger::BadgeKit::Product" /* BadgeKit.framework */; };
+		OBJ_52 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_63 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* XCTestManifests.swift */; };
+		OBJ_64 /* badgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* badgerTests.swift */; };
+		OBJ_66 /* BadgeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "badger::BadgeKit::Product" /* BadgeKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F88CC637206EFBA400361B1F /* PBXContainerItemProxy */ = {
+		F88CC63A206EFC8400361B1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "badger::BadgeKit";
 			remoteInfo = BadgeKit;
 		};
-		F88CC638206EFBA400361B1F /* PBXContainerItemProxy */ = {
+		F88CC63B206EFC8400361B1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "badger::BadgeKit";
 			remoteInfo = BadgeKit;
 		};
-		F88CC639206EFBA400361B1F /* PBXContainerItemProxy */ = {
+		F88CC63C206EFC8400361B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "badger::BadgeKit";
+			remoteInfo = BadgeKit;
+		};
+		F88CC63D206EFC8400361B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "badger::BadgeKit";
+			remoteInfo = BadgeKit;
+		};
+		F88CC63E206EFC8400361B1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -74,19 +110,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_34 /* Frameworks */ = {
+		OBJ_44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_35 /* BadgeKit.framework in Frameworks */,
+				OBJ_45 /* BadgeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_55 /* Frameworks */ = {
+		OBJ_65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_56 /* BadgeKit.framework in Frameworks */,
+				OBJ_66 /* BadgeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,9 +159,9 @@
 		OBJ_17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				"badger::badger::Product" /* badger.framework */,
 				"badger::badgerTests::Product" /* badgerTests.xctest */,
 				"badger::BadgeKit::Product" /* BadgeKit.framework */,
-				"badger::badger::Product" /* badger.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -181,9 +217,9 @@
 		};
 		"badger::SwiftPMPackageDescription" /* badgerPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "badgerPackageDescription" */;
+			buildConfigurationList = OBJ_48 /* Build configuration list for PBXNativeTarget "badgerPackageDescription" */;
 			buildPhases = (
-				OBJ_41 /* Sources */,
+				OBJ_51 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -195,15 +231,15 @@
 		};
 		"badger::badger" /* badger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_29 /* Build configuration list for PBXNativeTarget "badger" */;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXNativeTarget "badger" */;
 			buildPhases = (
-				OBJ_32 /* Sources */,
-				OBJ_34 /* Frameworks */,
+				OBJ_42 /* Sources */,
+				OBJ_44 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_36 /* PBXTargetDependency */,
+				OBJ_46 /* PBXTargetDependency */,
 			);
 			name = badger;
 			productName = badger;
@@ -212,15 +248,15 @@
 		};
 		"badger::badgerTests" /* badgerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_49 /* Build configuration list for PBXNativeTarget "badgerTests" */;
+			buildConfigurationList = OBJ_59 /* Build configuration list for PBXNativeTarget "badgerTests" */;
 			buildPhases = (
-				OBJ_52 /* Sources */,
-				OBJ_55 /* Frameworks */,
+				OBJ_62 /* Sources */,
+				OBJ_65 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_57 /* PBXTargetDependency */,
+				OBJ_67 /* PBXTargetDependency */,
 			);
 			name = badgerTests;
 			productName = badgerTests;
@@ -248,6 +284,8 @@
 			projectRoot = "";
 			targets = (
 				"badger::BadgeKit" /* BadgeKit */,
+				"badger::BadgeKitDynamic::ProductTarget" /* BadgeKitDynamic */,
+				"badger::BadgeKitStatic::ProductTarget" /* BadgeKitStatic */,
 				"badger::badger" /* badger */,
 				"badger::SwiftPMPackageDescription" /* badgerPackageDescription */,
 				"badger::badgerPackageTests::ProductTarget" /* badgerPackageTests */,
@@ -265,48 +303,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_32 /* Sources */ = {
+		OBJ_42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_33 /* badger.swift in Sources */,
+				OBJ_43 /* badger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_41 /* Sources */ = {
+		OBJ_51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_42 /* Package.swift in Sources */,
+				OBJ_52 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_52 /* Sources */ = {
+		OBJ_62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_53 /* XCTestManifests.swift in Sources */,
-				OBJ_54 /* badgerTests.swift in Sources */,
+				OBJ_63 /* XCTestManifests.swift in Sources */,
+				OBJ_64 /* badgerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_36 /* PBXTargetDependency */ = {
+		OBJ_32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "badger::BadgeKit" /* BadgeKit */;
-			targetProxy = F88CC637206EFBA400361B1F /* PBXContainerItemProxy */;
+			targetProxy = F88CC63C206EFC8400361B1F /* PBXContainerItemProxy */;
 		};
-		OBJ_47 /* PBXTargetDependency */ = {
+		OBJ_37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "badger::badgerTests" /* badgerTests */;
-			targetProxy = F88CC639206EFBA400361B1F /* PBXContainerItemProxy */;
+			target = "badger::BadgeKit" /* BadgeKit */;
+			targetProxy = F88CC63D206EFC8400361B1F /* PBXContainerItemProxy */;
+		};
+		OBJ_46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "badger::BadgeKit" /* BadgeKit */;
+			targetProxy = F88CC63A206EFC8400361B1F /* PBXContainerItemProxy */;
 		};
 		OBJ_57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			target = "badger::badgerTests" /* badgerTests */;
+			targetProxy = F88CC63E206EFC8400361B1F /* PBXContainerItemProxy */;
+		};
+		OBJ_67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
 			target = "badger::BadgeKit" /* BadgeKit */;
-			targetProxy = F88CC638206EFBA400361B1F /* PBXContainerItemProxy */;
+			targetProxy = F88CC63B206EFC8400361B1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -382,57 +430,26 @@
 		OBJ_30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = badger.xcodeproj/badger_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = badger;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = badger;
 			};
 			name = Debug;
 		};
 		OBJ_31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = badger.xcodeproj/badger_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = badger;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = badger;
 			};
 			name = Release;
 		};
-		OBJ_39 /* Debug */ = {
+		OBJ_35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-9.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
+		};
+		OBJ_36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
 		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -454,7 +471,62 @@
 			};
 			name = Release;
 		};
-		OBJ_40 /* Release */ = {
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = badger.xcodeproj/badger_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = badger;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = badger;
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = badger.xcodeproj/badger_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = badger;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = badger;
+			};
+			name = Release;
+		};
+		OBJ_49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-9.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -463,19 +535,19 @@
 			};
 			name = Release;
 		};
-		OBJ_45 /* Debug */ = {
+		OBJ_55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_46 /* Release */ = {
+		OBJ_56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_50 /* Debug */ = {
+		OBJ_60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -494,7 +566,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_51 /* Release */ = {
+		OBJ_61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -534,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_29 /* Build configuration list for PBXNativeTarget "badger" */ = {
+		OBJ_29 /* Build configuration list for PBXAggregateTarget "BadgeKitDynamic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_30 /* Debug */,
@@ -543,29 +615,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_38 /* Build configuration list for PBXNativeTarget "badgerPackageDescription" */ = {
+		OBJ_34 /* Build configuration list for PBXAggregateTarget "BadgeKitStatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_39 /* Debug */,
-				OBJ_40 /* Release */,
+				OBJ_35 /* Debug */,
+				OBJ_36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_44 /* Build configuration list for PBXAggregateTarget "badgerPackageTests" */ = {
+		OBJ_39 /* Build configuration list for PBXNativeTarget "badger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_45 /* Debug */,
-				OBJ_46 /* Release */,
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_49 /* Build configuration list for PBXNativeTarget "badgerTests" */ = {
+		OBJ_48 /* Build configuration list for PBXNativeTarget "badgerPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_50 /* Debug */,
-				OBJ_51 /* Release */,
+				OBJ_49 /* Debug */,
+				OBJ_50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_54 /* Build configuration list for PBXAggregateTarget "badgerPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_55 /* Debug */,
+				OBJ_56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_59 /* Build configuration list for PBXNativeTarget "badgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_60 /* Debug */,
+				OBJ_61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
