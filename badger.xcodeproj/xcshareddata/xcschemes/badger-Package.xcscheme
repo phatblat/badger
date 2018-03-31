@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "badger::badgerTests"
-               BuildableName = "badgerTests.xctest"
-               BlueprintName = "badgerTests"
+               BlueprintIdentifier = "badger::BadgeKitTests"
+               BuildableName = "BadgeKitTests.xctest"
+               BlueprintName = "BadgeKitTests"
                ReferencedContainer = "container:badger.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -17,15 +17,16 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "BadgeKit",
-            dependencies: [],
-            path: "Sources/BadgeKit"),
-        .target(
             name: "badger",
             dependencies: [.target(name: "BadgeKit")],
             path: "Sources/badger"),
+        .target(
+            name: "BadgeKit",
+            dependencies: [],
+            path: "Sources/BadgeKit"),
         .testTarget(
-            name: "badgerTests",
-            dependencies: [.target(name: "BadgeKit")]),
+            name: "BadgeKitTests",
+            dependencies: [.target(name: "BadgeKit")],
+            path: "Tests/BadgeKitTests"),
     ]
 )

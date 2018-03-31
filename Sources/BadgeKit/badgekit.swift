@@ -1,6 +1,7 @@
 import Foundation
 
 public final class CommandLineTool {
+    let message = "Hello, World!"
     private let arguments: [String]
 
     public init(arguments: [String] = CommandLine.arguments) {
@@ -8,6 +9,6 @@ public final class CommandLineTool {
     }
 
     public func run() throws {
-        print("Hello world")
+        print(message)
     }
 }
