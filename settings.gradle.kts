@@ -5,8 +5,11 @@
 
 rootProject.name = "badger"
 
-val clamp = file("../../gradle/Clamp")
-if (clamp.exists()) {
+val compositeProjectEnabled = false
+val gradleDev = file("../../gradle")
+
+val clamp = file("$gradleDev/Clamp")
+if (compositeProjectEnabled && clamp.exists()) {
     // Include Clamp plugin project in composite build
     includeBuild(clamp) {
         dependencySubstitution {
@@ -15,8 +18,8 @@ if (clamp.exists()) {
     }
 }
 
-val swiftPM = file("../../gradle/SwiftPM-Plugin")
-if (swiftPM.exists()) {
+val swiftPM = file("$gradleDev/SwiftPM-Plugin")
+if (compositeProjectEnabled && swiftPM.exists()) {
     // Include SwiftPM plugin project in composite build
     includeBuild(swiftPM) {
         dependencySubstitution {
