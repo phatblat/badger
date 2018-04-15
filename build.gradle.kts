@@ -31,7 +31,7 @@ open class BadgerTask : DefaultTask() {
 
 tasks {
     "clean" {
-        dependsOn("swiftClean")
+        dependsOn("swiftpmClean")
         dependsOn("swiftpmReset")
     }
     "assemble" {
