@@ -1,5 +1,6 @@
-import XCTest
 @testable import BadgeKit
+import XCTest
+import Foundation
 
 final class badgerTests: XCTestCase {
     func testExample() {
@@ -9,8 +10,8 @@ final class badgerTests: XCTestCase {
         XCTAssertEqual(CommandLineTool().message, "Hello, World!")
     }
 
-
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+//
+//    static var allTests = [
+//        ("testExample", testExample),
+//    ]
 }
