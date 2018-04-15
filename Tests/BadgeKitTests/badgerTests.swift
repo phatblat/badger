@@ -1,16 +1,17 @@
+@testable import BadgeKit
 import XCTest
-@testable import badger
+import Foundation
 
 final class badgerTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(badger().text, "Hello, World!")
+        XCTAssertEqual(CommandLineTool().message, "Hello, World!")
     }
 
-
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+//
+//    static var allTests = [
+//        ("testExample", testExample),
+//    ]
 }

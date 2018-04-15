@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "badger",
     products: [
-        .executable(name: "badger", targets: ["badger"]),
+        // .executable(name: "badger", targets: ["badger"]),
         .library(name: "BadgeKit", targets: ["BadgeKit"]),
         .library(name: "BadgeKitStatic", type: .static, targets: ["BadgeKit"]),
         .library(name: "BadgeKitDynamic", type: .dynamic, targets: ["BadgeKit"]),
@@ -17,15 +17,16 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "BadgeKit",
-            dependencies: [],
-            path: "Sources/BadgeKit"),
-        .target(
             name: "badger",
             dependencies: [.target(name: "BadgeKit")],
             path: "Sources/badger"),
+        .target(
+            name: "BadgeKit",
+            dependencies: [],
+            path: "Sources/BadgeKit"),
         .testTarget(
-            name: "badgerTests",
-            dependencies: [.target(name: "BadgeKit")]),
+            name: "BadgeKitTests",
+            dependencies: [.target(name: "BadgeKit")],
+            path: "Tests/BadgeKitTests"),
     ]
 )

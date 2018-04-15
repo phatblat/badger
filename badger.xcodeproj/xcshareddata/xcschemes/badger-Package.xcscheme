@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "badger::badger"
-               BuildableName = "badger.framework"
+               BuildableName = "badger"
                BlueprintName = "badger"
                ReferencedContainer = "container:badger.xcodeproj">
             </BuildableReference>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "badger::badgerTests"
-               BuildableName = "badgerTests.xctest"
-               BlueprintName = "badgerTests"
+               BlueprintIdentifier = "badger::BadgeKitTests"
+               BuildableName = "BadgeKitTests.xctest"
+               BlueprintName = "BadgeKitTests"
                ReferencedContainer = "container:badger.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "badger::badger"
-            BuildableName = "badger.framework"
+            BuildableName = "badger"
             BlueprintName = "badger"
             ReferencedContainer = "container:badger.xcodeproj">
          </BuildableReference>
