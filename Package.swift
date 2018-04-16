@@ -13,6 +13,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "ssh://git@github.com/Carthage/Commandant.git", from: "0.13.0"),
+        .package(url: "ssh://git@github.com/Quick/Quick.git", from: "1.2.0"),
+        .package(url: "ssh://git@github.com/Quick/Nimble", from: "7.1.0"),
     ],
     targets: [
         .target(
@@ -25,7 +27,11 @@ let package = Package(
             path: "Sources/BadgeKit"),
         .testTarget(
             name: "BadgeKitTests",
-            dependencies: [.target(name: "BadgeKit")],
+            dependencies: [
+                .target(name: "BadgeKit"),
+                "Quick",
+                "Nimble"
+            ],
             path: "Tests/BadgeKitTests"),
     ]
 )
