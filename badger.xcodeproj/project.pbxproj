@@ -645,7 +645,7 @@
 			path = DSL;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -657,7 +657,6 @@
 				OBJ_128 /* Products */,
 				F8CEBEAA20845A3C00389B99 /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_51 /* Hooks */ = {
@@ -998,6 +997,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"Quick::Quick" = {
+						LastSwiftMigration = 0930;
+					};
+					"Result::Result" = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "badger" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1006,7 +1013,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_128 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
