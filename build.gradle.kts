@@ -15,8 +15,8 @@ import org.gradle.api.DefaultTask
 
 plugins {
     base
-    id("at.phatbl.clamp") version "1.0.0"
-    id("at.phatbl.swiftpm") version "1.0.0"
+    id("at.phatbl.clamp") version "1.1.0"
+    id("at.phatbl.swiftpm") version "1.1.0"
 }
 
 /* -------------------------------------------------------------------------- */
