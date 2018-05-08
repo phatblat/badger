@@ -14,6 +14,7 @@ let package = Package(
     dependencies: [
         .package(url: "ssh://git@github.com/Carthage/Commandant.git", from: "0.13.0"),
         .package(url: "ssh://git@github.com/Quick/Quick.git", from: "1.2.0"),
+        //.package(url: "../../ios/pods/Quick", from: "1.2.0"),
         .package(url: "ssh://git@github.com/Quick/Nimble", from: "7.1.0"),
     ],
     targets: [

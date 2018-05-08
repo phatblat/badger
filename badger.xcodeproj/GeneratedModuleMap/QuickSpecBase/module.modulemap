@@ -1,4 +1,4 @@
 module QuickSpecBase {
-    umbrella header "/Users/phatblat/dev/macos/badger/.build/checkouts/Quick.git-2733117082000052066/Sources/QuickSpecBase/include/QuickSpecBase.h"
+    umbrella header "/Volumes/ThunderBay/Users/phatblat/dev/macos/badger/.build/checkouts/Quick.git--3582815272091407127/Sources/QuickSpecBase/include/QuickSpecBase.h"
     export *
 }

@@ -14,62 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Quick::Quick"
-               BuildableName = "Quick.framework"
-               BlueprintName = "Quick"
-               ReferencedContainer = "container:badger.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Quick::QuickSpecBase"
-               BuildableName = "QuickSpecBase.framework"
-               BlueprintName = "QuickSpecBase"
-               ReferencedContainer = "container:badger.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "badger::badger"
-               BuildableName = "badger"
-               BlueprintName = "badger"
-               ReferencedContainer = "container:badger.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Nimble::Nimble"
-               BuildableName = "Nimble.framework"
-               BlueprintName = "Nimble"
-               ReferencedContainer = "container:badger.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "badger::BadgeKit"
                BuildableName = "BadgeKit.framework"
                BlueprintName = "BadgeKit"
@@ -98,9 +42,65 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "badger::badger"
+               BuildableName = "badger"
+               BlueprintName = "badger"
+               ReferencedContainer = "container:badger.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Quick::QuickSpecBase"
+               BuildableName = "QuickSpecBase.framework"
+               BlueprintName = "QuickSpecBase"
+               ReferencedContainer = "container:badger.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "Result::Result"
                BuildableName = "Result.framework"
                BlueprintName = "Result"
+               ReferencedContainer = "container:badger.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Nimble::Nimble"
+               BuildableName = "Nimble.framework"
+               BlueprintName = "Nimble"
+               ReferencedContainer = "container:badger.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Quick::Quick"
+               BuildableName = "Quick.framework"
+               BlueprintName = "Quick"
                ReferencedContainer = "container:badger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -139,9 +139,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Quick::Quick"
-            BuildableName = "Quick.framework"
-            BlueprintName = "Quick"
+            BlueprintIdentifier = "badger::BadgeKit"
+            BuildableName = "BadgeKit.framework"
+            BlueprintName = "BadgeKit"
             ReferencedContainer = "container:badger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
