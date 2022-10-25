@@ -12,8 +12,10 @@ let package = Package(
         .library(name: "BadgeKitDynamic", type: .dynamic, targets: ["BadgeKit"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "ssh://git@github.com/Carthage/Commandant.git", from: "0.13.0"),
+        .package(url: "ssh://git@github.com/Quick/Quick.git", from: "1.2.0"),
+        //.package(url: "../../ios/pods/Quick", from: "1.2.0"),
+        .package(url: "ssh://git@github.com/Quick/Nimble", from: "7.1.0"),
     ],
     targets: [
         .target(
@@ -22,11 +24,15 @@ let package = Package(
             path: "Sources/badger"),
         .target(
             name: "BadgeKit",
-            dependencies: [],
+            dependencies: ["Commandant"],
             path: "Sources/BadgeKit"),
         .testTarget(
             name: "BadgeKitTests",
-            dependencies: [.target(name: "BadgeKit")],
+            dependencies: [
+                .target(name: "BadgeKit"),
+                "Quick",
+                "Nimble"
+            ],
             path: "Tests/BadgeKitTests"),
     ]
 )
